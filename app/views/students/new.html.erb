@@ -2,5 +2,5 @@
 
 <%= form_tag students_path do %>
   <label>First Name: </label>
-  <%= input
+  <%= text_field_tag 'student[:first_name]' %>
 <% end %>
